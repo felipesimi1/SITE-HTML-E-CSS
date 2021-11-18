@@ -26,7 +26,7 @@ body {
 /* ----------------------------------------------------------------------*/
 
 .fundo{
-	background: url(../img/fundo.png) no-repeat bottom center scroll;
+	background: url(../img/background.jpg) no-repeat  center scroll;
 	background-size: cover ;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -43,7 +43,7 @@ body {
 }
 
 .menu {
-	  height: 60px;
+	  height: 70px;
 	  box-shadow: 0px 0px 100px 5px;
 	  display: flex;
 	  width: 100% center;
@@ -66,23 +66,21 @@ body {
 /*  ANIMAÇÃO BOTÃO MENU	--------------------------------------------*/
 #animado_botao{
 	display: inline-block;
-	border: 1px;
-	border-color: rgb(255, 255, 255);
-	border-style:solid;
 	width: 170px;
 	height: 50px;
-	background-color: #666666;
-	border-radius: 2px;
+	border-color: transparent;
+	background-color: transparent;
+	background-image: linear-gradient(to top, transparent, rgb(128, 128, 128), transparent);
 	position: relative;
-	color: white ;
+	color: rgb(255, 255, 255) ;
 	font-weight: bold;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 25px;
 }
 
 #animado_botao:hover{
-	background-color: #808080;
+	background-image: linear-gradient(to top, transparent, rgb(212, 212, 212), transparent);
 }
-
 /* DISTANCIA ENTRE O PRIMEIRO BLOCO E O MENU */
 
 nav {
@@ -270,8 +268,8 @@ textarea{
 
 .footer-basico {
 	padding:40px 0;
-	background-color:black;
-	color:rgb(148, 148, 148);
+	background-image: linear-gradient(to top, black 100px, transparent);
+	color:rgb(255, 255, 255);
 	position: relative;
 	bottom: 0px;
 	top: 200px;
@@ -293,7 +291,7 @@ textarea{
 	opacity:0.8;
 }
 .footer-basico ul a:hover {
-	opacity:1;
+	opacity:30%;
 }
 .footer-basico .social {
 	text-align:center;
@@ -307,18 +305,18 @@ textarea{
 	display:inline-block;
 	text-align:center;
 	border-radius:50%;
-	border:1px solid #ccc;
+	border:1px solid rgb(255, 255, 255);
 	margin:0 8px;
 	color:inherit;
 	opacity:0.75;
 }
 .footer-basico .social > a:hover {
-	opacity:0.9;
+	opacity:30%;
 }
 .footer-basico .copyright {
 	margin-top:15px;
 	text-align:center;
 	font-size:13px;
-	color:#aaa;
+	color:rgb(255, 255, 255);
 	margin-bottom:0;
 }
