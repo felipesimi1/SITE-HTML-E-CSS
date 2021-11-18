@@ -101,9 +101,7 @@ nav {
 	right: 10px;
 	bottom: 10px;
 	border-radius: 50%;
-	
 }
-
 
 .topo:hover{
 background-color: rgb(134, 134, 134);
@@ -213,6 +211,7 @@ textarea{
 		grid-gap: 2rem;
 	}
 }
+
 .texto{
 	background-color: white;
 	font-size: 17px;
@@ -225,6 +224,8 @@ textarea{
 .texto:hover{
 		transform: scale(1.10);
 		transition: transform 400ms ease-out;
+		text-decoration: none;
+		color: rgb(19, 19, 19);
 }
 .tabela{
 	background-color: white;
