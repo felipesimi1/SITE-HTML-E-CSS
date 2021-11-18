@@ -91,7 +91,7 @@ nav {
 /* -----------------------BOTÃO LEVE AO TOPO ----------------------------*/
 /* ----------------------------------------------------------------------*/
 
-#topo{
+.topo{
 
 	text-decoration: none;
 	color: white;
@@ -100,7 +100,15 @@ nav {
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
-	box-shadow: 3px 3px 10px #333;
+	border-radius: 50%;
+	
+}
+
+
+.topo:hover{
+background-color: rgb(134, 134, 134);
+text-decoration: none;
+
 }
 /*--------------------------------------------------------------------------------------------*/
 /* CONTAINER GRANDE --------------------------------------------------------------------------*/
@@ -166,6 +174,7 @@ textarea{
 	margin: 20px auto;
 	padding: 2rem 2rem 2rem;
 	top: 50px;
+	
 }
 .heading {
 	font-size: 4rem;
@@ -212,6 +221,7 @@ textarea{
 	height: 425px;
 	font-family: Montserrat, sans-serif;
 }
+
 .texto:hover{
 		transform: scale(1.10);
 		transition: transform 400ms ease-out;
