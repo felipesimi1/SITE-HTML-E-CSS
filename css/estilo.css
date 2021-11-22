@@ -70,12 +70,13 @@ body {
 	height: 50px;
 	border-color: transparent;
 	background-color: transparent;
-	background-image: linear-gradient(to top, transparent, rgb(128, 128, 128), transparent);
+	background-image: linear-gradient(to top, transparent, rgb(109, 109, 109), transparent);
 	position: relative;
 	color: rgb(255, 255, 255) ;
 	font-weight: bold;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size: 25px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	border-radius: 15px;
 }
 
 #animado_botao:hover{
